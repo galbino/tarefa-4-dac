@@ -59,6 +59,7 @@ const Editions = () => {
             const { data } = response;
 
             setEdition(data);
+        }).catch(function (error) {
         });
     }
 
